@@ -3,12 +3,12 @@ import pandas as pd
 from pathlib import Path
 
 scheme_codes = [
-    125497,  # HDFC Top 100
-    119551,  # SBI Bluechip
-    120503,  # ICICI Bluechip
-    118632,  # Nippon Large Cap
-    119092,  # Axis Bluechip
-    120841   # Kotak Bluechip
+    125497,  
+    119551,  
+    120503,  
+    118632, 
+    119092,  
+    120841  
 ]
 
 save_path = Path("data/raw")
