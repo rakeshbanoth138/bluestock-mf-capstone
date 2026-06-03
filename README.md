@@ -70,6 +70,16 @@ bluestock_mf_capstone/
 * mfapi.in
 * NSE/BSE Public Data
 
+## Day 2 Progress
+
+- Cleaned NAV history dataset
+- Cleaned investor transactions dataset
+- Cleaned scheme performance dataset
+- Created SQLite star schema
+- Loaded data into SQLite database
+- Created analytical SQL queries
+- Created data dictionary
+
 ---
 
 ## Author
