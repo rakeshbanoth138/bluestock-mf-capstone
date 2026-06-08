@@ -8,7 +8,7 @@ csv_files = sorted(raw_path.glob("*.csv"))
 print(f"\nFound {len(csv_files)} CSV files")
 
 for file in csv_files:
-    print("\n" + "="*60)
+   
     print("FILE:", file.name)
 
     df = pd.read_csv(file)

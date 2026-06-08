@@ -2,20 +2,11 @@ import requests
 import pandas as pd
 from pathlib import Path
 
-scheme_codes = [
-    125497,  
-    119551,  
-    120503,  
-    118632, 
-    119092,  
-    120841  
-]
-
+scheme_codes = [125497, 119551,120503,118632,119092, 120841]
 save_path = Path("data/raw")
 
 for code in scheme_codes:
     url = f"https://api.mfapi.in/mf/{code}"
-
     try:
         response = requests.get(url)
 
