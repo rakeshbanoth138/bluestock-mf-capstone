@@ -1,3 +1,6 @@
+"""Live NAV Fetch Script
+Fetches and updates mutual fund NAV information."""
+
 import requests
 import pandas as pd
 from pathlib import Path

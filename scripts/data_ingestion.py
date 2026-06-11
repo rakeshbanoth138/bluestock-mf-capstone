@@ -1,3 +1,6 @@
+"""Data Ingestion Script
+Loads raw mutual fund datasets into the project environment."""
+
 from pathlib import Path
 import pandas as pd
 

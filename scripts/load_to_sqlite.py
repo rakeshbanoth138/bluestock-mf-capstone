@@ -1,3 +1,6 @@
+"""SQLite Loading Script
+Loads processed datasets into SQLite database tables."""
+
 import pandas as pd
 from sqlalchemy import create_engine, text
 
